@@ -1,0 +1,174 @@
+
+body{
+    background-color: #FBF4E9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,footer{
+    background-color: #3B2314;
+    color: #FBF4E9;
+    text-align: center;
+    
+}
+header p{
+    color: #EBD9C0;
+    font-size: 20px;
+}
+header nav{
+    color: #D9B98C;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+header nav a {
+ color: #FBF4E9;
+ text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: #F0C98F;
+}
+h1{
+    margin: 0;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size:70px;
+}
+
+main{
+    padding: 20px 150px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2{
+    padding: 0;
+    margin: 32px 0 16px; 
+    font-size: 30px;
+    color: #3B2314;
+    border-bottom: 3px solid #B9722F;
+    padding-bottom: 16px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+main p{
+    font-size: 20px;
+}
+
+ul,ol{
+font-size: 20px;
+}
+
+.days{
+font-weight: bold;
+margin-bottom: 0;
+}
+
+.time{
+    margin-top: 0;
+}
+
+#MP{
+  text-align: left;  
+  font-size: 20px;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #DCC8A8;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+form p {
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+label {
+  margin-right: 8px;
+}
+
+input[type="text"],input[type="email"],input[type="date"],select,textarea {
+  padding: 10px;
+  border: 1px solid #9C8160;
+  border-radius: 6px;
+  font: inherit;
+  color: #3B2314;
+  background-color: white;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+input[type="radio"],input[type="checkbox"] {
+  accent-color: #8F5319;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+input[type="submit"] {
+  background-color: #8F5319;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font: inherit;
+  font-weight: 700;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: white;
+  color: #3B2314;
+  border: 1px solid #3B2314;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font: inherit;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    border-collapse: collapse;
+}
+caption{
+    font-weight: bold;
+    color: #3B2314; 
+}
+
+thead{
+    background-color: #3B2314;
+    color: white;
+}
+ tfoot , tbody td[rowspan] {
+  background-color: #EBD9C0;
+  font-weight: 700;
+}
+footer{
+
+   padding: 24px;
+    font-size: 20px;
+    color: #F5EBDA;
+}
+footer p a{
+    color: #F0C98F; 
+}
